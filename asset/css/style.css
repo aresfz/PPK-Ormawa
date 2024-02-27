@@ -1,0 +1,24 @@
+.navbar {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.588);
+}
+.carousel-container {
+    position: relative;
+    z-index: 0;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
+.navbar-nav {
+    margin-left: 220px;
+    display: flex;
+    justify-content: center;
+}
