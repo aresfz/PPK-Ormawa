@@ -33,3 +33,28 @@
     background-position: center;
   }
  
+  .galeri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    flex: 1 1 calc(30% - 20px); /* Menggunakan calc untuk menyesuaikan margin */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Mengatur overflow agar gambar tidak keluar dari card */
+  }
+
+  p {
+    text-align: justify;
+    margin: 0 10px 10px; /* Mengatur margin */
+    overflow: hidden; /* Mengatur overflow agar deskripsi tidak keluar dari card */
+    max-height: 150px; /* Mengatur tinggi maksimum deskripsi */
+    line-height: 1.5; /* Mengatur jarak antar baris */
+  }
