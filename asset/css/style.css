@@ -58,3 +58,20 @@
     max-height: 150px; /* Mengatur tinggi maksimum deskripsi */
     line-height: 1.5; /* Mengatur jarak antar baris */
   }
+
+footer {
+  background: rgb(106, 73, 38);
+  background: linear-gradient(90deg, rgba(106, 73, 38, 1) 0%, rgba(83, 58, 33, 0.8054187192118226) 100%);
+}
+
+footer p,
+.links,
+.end,
+.col {
+  color: white;
+}
+
+a .text-body {
+  color: white;
+}
+
